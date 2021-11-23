@@ -1,0 +1,56 @@
+/*-------------------------------------DESKTOP-----------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+  min-width: 300px;
+  border: 5px solid #000;
+  margin: 10px
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.blue {
+    background-color:  #0000ff;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+/* ----------------------------------MEDIA QUERIES-------------------------------------------
+
+/*----------------------breakpoint 1300px------------------------------------------*/
+
+@media screen and (max-width: 1300px) {
+
+    .container {
+        max-width: 660px;
+    }
+
+    .yellow {
+        width: 100%;
+    }
+
+}
+
+/*----------------------breakpoint 800px------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+
+    .yellow {
+        width: 300px;
+    }
+
+}
+
+
